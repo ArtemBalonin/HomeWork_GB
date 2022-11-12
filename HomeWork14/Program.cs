@@ -23,7 +23,7 @@ void PrintArray(int[] array)
     }
     Console.WriteLine("]");
 }
-int[] arr = CreateArray(10, 100, 999);
+int[] arr = CreateArray(10, 100, 1000);
 PrintArray(arr);
 
 int EvenNumbers(int[]array)
