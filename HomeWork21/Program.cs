@@ -33,9 +33,6 @@ void PrintMatrix(int[,] matrix)
     }
 }
 
-int[,] arr2D = CreateMatrixRndInt(3, 4, 1, 10);
-PrintMatrix(arr2D);
-
 double[] Array(int[,] matrix)
 {
     double[] array = new double[matrix.GetLength(1)];
@@ -63,6 +60,9 @@ void PrintArray(double[] array)
     }
     Console.WriteLine("]");
 }
+
+int[,] arr2D = CreateMatrixRndInt(3, 4, 1, 10);
+PrintMatrix(arr2D);
 
 double[] arr = Array(arr2D);
 PrintArray(arr);
