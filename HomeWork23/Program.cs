@@ -74,7 +74,9 @@ PrintMatrix(matrix);
 
 Console.WriteLine();
 
-
-SumRowsMatrix(matrix);
-PrintMatrix(matrix);
+if (m != n)
+{
+    SumRowsMatrix(matrix);
+}
+else Console.WriteLine($"Массив должен быть прямоугольным, а значит значения (m) и (n) не должны быть равны.");
 
